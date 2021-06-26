@@ -21,27 +21,15 @@
             </div>
             <div class="container">
             <div class="row justify-content-between align-items-end mt-2 mx-3 mb-2">
-                <div id="hero-logo" class="col-md-5 col-sm-5 col-6 g-2 align-items-end">
+                <div id="hero-logo" class="col-md-5 col-sm-5 col-12 g-2 align-items-end">
                     <img class="img-fluid" src="imgs/logo.png" alt="logo">
                 </div>
-                <div id="hero-list" class="col-md-6 col-sm-6 col-6 ">
+                <div id="hero-list" class="col-md-6 col-sm-6 col-12 ">
                     <a class="hipervinculo" href="">INICIO</a>
                     <a class="hipervinculo" href="">PRODUCTOS</a>
                     <a class="hipervinculo" href="">NOSOTROS</a>
                     <a class="hipervinculo" href="">CONTACTO</a>
                 </div>
-                <div class="dropdown col-2">
-                    <button onclick="myFunction()" class="dropbtn"> 
-                        <div class="hamburguer-menu"></div>
-                        <div class="hamburguer-menu"></div>
-                        <div class="hamburguer-menu"></div> </button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="#">INICIO</a>
-                        <a href="#">PRODUCTOS</a>
-                        <a href="#">NOSOTROS</a>
-                        <a href="#">CONTACTO</a>
-                    </div>
-                    </div> 
             </div>
         </div>
         </header>
@@ -94,7 +82,7 @@
     </div>
 </div>
     <div class="container overflow-hidden p-4">
-        <div class="row justify-content-around g-4">
+        <div class="row justify-content-around g-4 my-2">
             <div class="col-md-3 d-flex flex-column align-items-center">
                 <a href="#"></a>
                 <img class="cuadradito_imagen img-fluid" src="imgs/img1.png" alt="camioncito" onmouseover="this.src='imgs/img1-hover.png'" onmouseout="this.src='imgs/img1.png'" >
@@ -126,46 +114,79 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div id="bothViews" class="container">
         <div class="row mx-3 justify-content-center align-items-center d-flex pt-3 px-0">
-            <div id="flor1" class="col-md-3 col-3 py-2 px-2 d-flex flex-column justify-content-center align-items-center  ">
+            <div id="flor1" class="col-md-3 col-4 py-2 px-2 d-flex flex-column justify-content-center align-items-center  ">
                 <img class="flor1-img d-flex justify-content-center align-items-center py-2" src="imgs/flor1.jpg" alt="flores dibujadas">
                 <div class="texto_flor1 d-flex justify-content-center align-items-center py-2">Todo para jabon artesanal</div>
             </div>
-            <div class="col-md-9 col-9 py-2 px-0">
+            <div class="col-md-9 col-8 py-2 px-0">
                 <div class="side_flor1"></div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row mx-3 justify-content-start">
-            <div class="col-md-4 gx-md-0 col-12 gx-0 d-flex flex-column align-items-center">
-                <div class="flor2 d-flex flex-column justify-content-center align-items-center ">
+    <div id="forDesktop2" class="container">
+        <div class="row mx-3 justify-content-start d-md-flex d-none">
+            <div class="flor2 col-md-4 gx-md-0 col-12 gx-0 d-flex flex-md-column flex-row-reverse align-items-center">
                     <img class="flor2-img d-flex justify-content-center align-items-center" src="./imgs/flor2.jpg" alt="">
-                    <div class="text_flor2 d-flex justify-content-center align-items-center">Sellos personalizados</div>
-                </div>
+                    <div class="texto_flor2 d-flex justify-content-center align-items-center">Sellos personalizados</div>
                 <div class="below_flor2">
                 </div>
             </div>
-            <div class="col-md-4 gx-md-1 col-12 gx-0 d-flex flex-column ">
+            <div class="col-md-4 gx-md-1 col-12 gx-0 d-flex flex-md-column flex-row ">
                 <div class="flor3 d-flex flex-column justify-content-center align-items-center">
                     <img class=" flor3-img d-flex justify-content-center align-items-center" src="./imgs/flor3.jpg" alt="">
-                    <div class="text_flor3 d-flex justify-content-center align-items-center">Flores y hiervas
+                    <div class="texto_flor3 d-flex justify-content-center align-items-center">Flores y hiervas
                     </div>
                 </div>
                 <div class="below_flor3">
                 </div>
             </div>
-            <div class="col-md-4 gx-md-1 col-12 gx-0 d-flex flex-column ">
+            <div class="col-md-4 gx-md-1 col-12 gx-0 d-flex flex-md-column flex-row-reverse ">
                 <div class="flor4 flex-column d-flex justify-content-center align-items-center">
                     <img class= flor4-img d-flex justify-content-center align-items-center " src="./imgs/flor4.jpg" alt="">
-                    <div class="text_flor4 d-flex flex-column justify-content-end align-items-center ">Todo para bathbombs
+                    <div class="texto_flor4 d-flex flex-column justify-content-end align-items-center ">Todo para bathbombs
                     </div>
                 </div>
                 <div class="below_flor4">
                 </div>
             </div>
         </div>
+    </div>
+    <div id="forMobile" class="container">
+        <div class="row mx-3 justify-content-start d-md-none d-flex flex-md-column flex-row-reverse pb-2">
+            <div class="col-md-4 gx-md-0 col-4 gx-0 d-flex align-items-center">
+                <div class="flor2 d-flex flex-column justify-content-center align-items-center ">
+                    <img class="flor2-img d-flex justify-content-center align-items-center" src="./imgs/flor2.jpg" alt="">
+                    <div class="texto_flor2 d-flex justify-content-center align-items-center">Sellos personalizados</div>
+                </div>
+            </div>
+            <div class="below_flor2 col-md-4 gx-md-0 col-8 gx-0 d-flex align-items-center">
+            </div>
+        </div>
+        <div class="row mx-3 justify-content-center d-md-none d-flex flex-md-column flex-row pb-2">
+            <div class="col-md-4 gx-md-1 col-4 gx-0 d-flex flex-md-column flex-row ">
+                <div class="flor3 d-flex flex-column justify-content-center align-items-center">
+                    <img class=" flor3-img d-flex justify-content-center align-items-center" src="./imgs/flor3.jpg" alt="">
+                    <div class="texto_flor3 d-flex justify-content-center align-items-center">Flores y hiervas
+                    </div>
+                </div>
+                </div>
+                <div class="below_flor3 col-md-4 gx-md-0 col-8 gx-0 d-flex align-items-center">
+            </div>
+        </div>
+        <div class="row mx-3 justify-content-start d-md-none d-flex flex-md-column flex-row-reverse pb-2">
+            <div class="col-md-4 gx-md-1 col-4 gx-0 d-flex flex-md-column flex-row-reverse">
+                <div class="flor4 flex-column d-flex justify-content-center align-items-center">
+                    <img class= flor4-img d-flex justify-content-center align-items-center " src="./imgs/flor4.jpg" alt="">
+                    <div class="texto_flor4 d-flex flex-column justify-content-end align-items-center ">Todo para bathbombs
+                    </div>
+                </div>
+            </div>
+            <div class="below_flor4 col-md-4 gx-md-0 col-8 gx-0 d-flex align-items-center">
+            </div>
+        </div>
+    </div>
     </div>
     <div class="container">
         <div class="row mx-3 justify-content-center align-items-start">
@@ -194,7 +215,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-4 mb-1 mt-4 font-poppins d-flex flex-column align-items-center justify-content-center">
+            <div class="col-12 col-md-4 col-4 mb-4 mt-4 font-poppins d-flex flex-column align-items-center justify-content-center">
                 <img class="pc-aprende-online img-fluid" src="./imgs/pc.jpg" alt="">
                 <br>
                 <span class="title-aprende-online1">Aprende<span class="title-aprende-online2"> ONLINE!</span></span>
@@ -211,7 +232,7 @@
     </div>
     <div class="container">
         <div class="row mx-3">
-            <div class="col-12 mb-4 font-poppins d-flex flex-column align-items-center justify-content-center ">
+            <div class="col-12 mb-4 mt-4 font-poppins d-flex flex-column align-items-center justify-content-center ">
                 <span class="title-productos-destacados my-4"><strong>Productos destacados</strong></span> 
                 <div class="row w-100 h-100">
                     <div class="col-6 col-md-2  ">
