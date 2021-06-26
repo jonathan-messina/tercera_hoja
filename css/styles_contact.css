@@ -380,17 +380,17 @@ li:not(:last-child) {
     margin-bottom: 10vh;
   }
   .subsection_title{
-    font-size:7vw;
+    font-size:6vw;
   }
   .lista_desplegable{
     font-size:5vw;
     text-align: start;
   }
   .subcontacto_header{
-    font-size:5vw;
+    font-size:6vw;
   }
   .extra_info_header{
-    font-size:2vw;
+    font-size:3vw;
   }
   .contenedor_columna{
     display:flex;
@@ -401,6 +401,7 @@ li:not(:last-child) {
   }
   .info_square{
     align-items: center;
+    justify-content: center;
     width: 80vw;
     font-size: 3.5vw;
     padding-bottom: 0vw;
