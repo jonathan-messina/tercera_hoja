@@ -7,6 +7,10 @@ color violeta: rgba(154,104,176,255)
   src: url("../fonts/learningCurve.ttf");
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 .center {
   justify-content: center;
 }
@@ -21,7 +25,7 @@ color violeta: rgba(154,104,176,255)
 }
 
 .hipervinculo {
-  margin: 1.1vh;
+  margin: 1vw;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: grey;
@@ -116,7 +120,7 @@ img {
 .cuadradito_texto {
   text-align: center;
   font-family: "poppins", sans-serif;
-  font-size: 75%;
+  font-size: 115%;
   font-weight: 200;
 }
 
@@ -209,7 +213,7 @@ img {
 .side_flor1 {
   background-image: url(../imgs/content1.jpeg);
   background-size: cover;
-  width: 100%;
+  width: 50vw;
   height: 25vw;
 }
 
@@ -589,7 +593,7 @@ li:not(:last-child) {
 .slider-container {
   background: rgb(255, 255, 255);
   position: relative;
-  height: 80vh;
+  height: 45vw;
   width: 100%;
 }
 
